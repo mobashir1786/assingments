@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+.col{
+    color:#de5012;
+}
+li{
+    color: brown;
+}
+.bg{
+    background-color: yellow;
+}
+p{
+    color: rgb(93, 1, 1);
+}
+.del{
+    text-decoration: line-through;
+}
