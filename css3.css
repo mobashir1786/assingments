@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    }
+.all{
+    background-color: rgb(133, 129, 129);
+    }
+
+.upper{
+    background-color: white;
+    color: rgb(185, 72, 72);
+    height: 200px;
+    width: 400px;
+    border: red solid 7px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    box-shadow: 5px 5px #712B75;
+    }
+
+.middle{
+    border: 10px solid green;
+    margin-top: 20px;
+    }
+.containor{
+   color: #712B75;
+   /*display: flex;
+   flex-direction: column;*/
+    }
+
+.left{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    height: 240px;
+    width: 220px;
+    border: solid red 7px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(39, 19, 22);
+    box-shadow: 8px 8px #712B75;
+    }
+
+.right{
+    display: inline;
+    position: relative;
+    margin-right: 80px;
+    float: right;
+    background-color: white;
+    height: 240px;
+    width: 220px;
+    border: solid red 7px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(39, 19, 22);
+    box-shadow: 8px 8px #712B75;
+    
+    }
+.submit{
+    background-color: red;
+    border-radius: 20px;
+}
+input{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    }
+
+.lower{
+    background-color: green;
+    border:10px solid #712B75;
+    width: 60%;
+    margin: auto;
+    }
+.low1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list{
+    margin: 6px;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(220, 220, 116);
+    font-style: italic;
+    height: 220px;
+    width: 45.3%;
+    text-align: center;
+}
+.other{
+    position: relative;
+    background-color: rgb(220, 220, 132);
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fix{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    background-color: #06FF00;
+    color: red;
+    font-style: italic;
+    left: 380px;
+    bottom: 30px;
+    width: 560px;
+    height: 60px;
+    border: 7px solid red;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px #712B75;
+    }
