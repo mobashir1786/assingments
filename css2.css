@@ -20,6 +20,8 @@
      font-style: italic;
  }
  .middle{
+     position: relative;
+     right: 120px;
      margin-top: 30px;
      background-color: black;
      color: white;
