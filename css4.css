@@ -1,0 +1,162 @@
+/*i created this in six part*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/* this is firdt div*/
+.first{
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        red 0% 10%,
+        green 20%,
+        yellow
+    );
+    text-decoration: underline;
+}
+/*this is second div*/
+.second{
+    width: 60vw;
+    height: 80px;
+    padding: 5px;
+    border: 5px solid red;
+    background-color: skyblue;
+    border-radius: 20px;
+    position: relative;
+    left: 17.5vw;
+    text-align: center;
+}
+.dot{
+    display: grid;
+    justify-content: center;
+    font-size: 17px;
+}
+/*this is third div*/
+.third{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99.7%;
+    height: 190px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+.item{
+    width: 28%;
+    height: 50px;
+    display: inline-block;
+    background-color: aqua;
+    padding:20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* this is forth div*/
+.forth{
+    width:100% ;
+    height: 20px;
+    background-image: linear-gradient(
+        to left,
+        red,
+        yellow,
+        red
+    );
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+/*this is fifth div*/
+.fifth{
+    width: 99.7;
+    height: 300px;
+    background-image: radial-gradient(
+        blue 0% 10%,
+        aqua 60% 70%,
+        green 95% 
+    );
+    display: flex;
+    justify-content: space-around;
+}
+.student{
+    width: 200px;
+    height: 40px;
+    padding: 20px;padding-bottom: 70px;
+    position: relative;
+    top: 12.5vh;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+/* this is last div
+ there are many div in this div*/
+.sixth{
+    width: 100%;
+}
+.upper{
+    width:100% ;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.containor{
+    width: 91vw;
+    height: 100px;
+    display: flex;
+    align-items: space-evenly;
+    
+}
+.same{
+    width:33vw;
+    height: 5rem;
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.one{
+    background-color: rgb(64, 214, 64);
+    font-size: 28px;
+    text-align: center;
+}
+.two{
+    background-color: rgb(70, 144, 247);
+    font-size: 28px;
+}
+.three{
+    background-color: rgb(87, 87, 239);
+    font-size: 22px;
+}
+.four{
+    width: 90.5vw;
+    height: 100px;
+    background-color:rgb(247, 169, 73);
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.five{
+    background-color: black;
+    color: white;
+    width: 7.5vw;
+    height: 190px;
+    text-align: left;
+    float: right;
+    position: relative;
+    bottom: 200px;
+    display: grid;
+    justify-content: flex-start;
+    padding: 0;
+}
+.lower{
+    background-color: rgb(102, 214, 158);
+    text-align: center;
+    font-size: 24px;
+}
