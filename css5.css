@@ -156,40 +156,35 @@ background-color: aqua;
     margin: 10px;
 }
 .city{
-    width: 120%;
-    height: 400px;
+    background-image: url(city.png);
+    background-repeat: repeat-x;
+    width: 1500%;
+    height: 250px;
     position: absolute;
-    top: 120px;
+    top: 200px;
     animation: normal 10s city linear infinite;
 }
 @keyframes city{
     from{
-        transform: translateX(1000);
+        transform: translateX(0);
     }
     to{
         transform: translateX(-1000px);
     }
 }
 .road{
-    width: 150%;
-    height: 400px;
+    background-image: url(road.jpg);
+    width: 1500%;
+    background-repeat: repeat-x;
+    height: 300px;
     position: absolute;
-    top: 120px;
-    animation: normal 2s city linear infinite;
+    top: 450px;
+    animation: normal 2s road linear infinite;
 }
-@keyframes city{
-    from{
-        transform: translateX(1000px);
-    }
-    to{
-        transform: translateX(-1000px);
-    }
-}
-.road{
-    width: 97%;
-    height: 225px;
-    position: absolute;
-    top: 520px;
+@keyframes road{
+    100% {
+        transform: translateX(-1500px);
+      }
 }
 .sun{
     width: 100px;
