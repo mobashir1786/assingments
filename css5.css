@@ -1,0 +1,238 @@
+
+body{
+    background-color: yellow;
+}
+.txt{
+    font-size: 32px;
+    font-weight: 1000;
+    text-align: center;
+}
+.con1{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    left: 25vw;
+}
+.same{
+    width: 180px;
+    height: 180px;
+    margin: 50px;
+}
+.same1{
+    animation: alternate 4s rotate1 linear 2s infinite;
+    background-color: aquamarine;
+}
+@keyframes rotate1{
+    from{
+        transform: skewX(-30deg)
+    }
+    to{
+        transform: skewX(30deg);
+    }
+}
+.same2{
+    animation: alternate 4s rotate2 linear 2s infinite;
+background-color: aqua;
+}
+@keyframes rotate2{
+    from{
+        transform: skewY(-30deg);
+    }
+    to{
+        transform: skewY(30deg);
+    }
+}
+.same3{
+    animation: 4s rotate3 linear 2s infinite;
+    background-color: greenyellow;
+}
+@keyframes rotate3{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.one{
+    animation:alternate 4s strech linear 2s infinite;
+    background-color: greenyellow;
+}
+@keyframes strech{
+    from{
+        transform: scaleY(1)
+    }
+    to{
+        transform: scaleY(.5);
+    }
+}
+.two{
+    animation:alternate 4s strech1 linear 2s infinite;
+    background-color: red;
+}
+@keyframes strech1{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(.5);
+    }
+}
+.three{
+    animation:alternate 4s rotate3 linear 2s infinite;
+    background-color: green;
+}
+@keyframes rotate3{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-90deg);
+    }
+}
+.anc{
+    font-size: 32px;
+    text-align: center;
+}
+/*for second page*/
+.con2{
+    display: flex;
+    align-items: baseline; 
+    position: relative;
+    left: 40vw;
+}
+.design1{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    background-color: blue;
+}
+.design1:hover{
+    transition: all 4s linear;
+    width: 360px;
+}
+.design2{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    background-color: blue;
+}
+.design2:hover{
+    transition: all 4s linear;
+    width: 360px;
+    height: 360px;
+}
+.anc1{
+    font-size: 32px;
+    position: relative;
+    left: 43vw;
+}
+/* for third page*/
+.whole{
+    width: 96vw;
+    height:96.5vh;
+    border-top: 20px solid white;
+    border-left: 20px solid green;
+    border-right: 20px solid orange;
+    background-image: url("sky.jpg");
+    background-size: cover;
+}
+.text{
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+    left: 35vw;
+}
+.text1{
+    background-color: orange;
+    margin: 10px;
+}
+.text2{
+    background-color: white;
+    margin: 10px;
+}
+.text3{
+    background-color: green;
+    margin: 10px;
+}
+.city{
+    width: 120%;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    animation: normal 10s city linear infinite;
+}
+@keyframes city{
+    from{
+        transform: translateX(1000);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
+.road{
+    width: 150%;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    animation: normal 2s city linear infinite;
+}
+@keyframes city{
+    from{
+        transform: translateX(1000px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
+.road{
+    width: 97%;
+    height: 225px;
+    position: absolute;
+    top: 520px;
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 1200px;
+}
+.car{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 30vw;
+    top: 50vh;
+}
+.wheel{
+    width: 105px;
+    height: 105px;
+    animation: normal 2s wheels linear infinite;
+}
+@keyframes wheels{
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.wheel1{
+    position: absolute;
+    left: 515px;
+    top: 535px;
+}
+.wheel2{
+    position: absolute;
+    left: 883px;
+    top: 535px;
+}
+.flag{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
