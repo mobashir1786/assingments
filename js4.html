@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        Find the Product.
+    Write a program that takes an array as input from the user and find out the product of the elements.
+    Note: You have to complete Find_Prod. No need to take any input.
+    </pre>
+    <pre>
+        const Find_Prod = (array, N) => {
+            let product=1;
+            for(let i=0; i<array.length; i++){
+              product = product * array[i];
+            }
+            return product;
+          };
+    </pre>
+    <pre>
+        Find the Sum.
+    Write a program which takes an array as input from the user and find out the sum of the array elements.
+    Note: You have to complete Find_Sum. No need to take any input.
+    </pre>
+    <pre>
+        const Find_Sum = (array, N) => 
+    {
+        let sum=0;
+        for(let i=0; i<array.length; i++){
+        sum = sum + array[i];
+        }
+        return sum;
+    };
+    </pre>
+    <pre>
+        Count Occurrences
+    You are given an array A containing N integer elements and an integer K, and your task is to return the count of occurrences of K in array A.
+    Note: You have to complete findCount function. No need to take any input.
+    </pre>
+    <pre>
+        const findCount = (N, K, Arr) => 
+        {
+            let digitK=0;
+            for(let i=0; i<=Arr.length; i++){
+                if(Arr[i]===K){
+                digitK++;
+                }
+            }
+            return digitK;
+        };
+    </pre>
+    <pre>
+        Even Odd
+    You are given an array A containing N integer elements, and your task is to return an array B (having a size equal to 2), 
+    where B[0] contains the sum of all even elements of array A and B[1] has the sum of all odd elements of the array A.
+    Note: You have to complete findEvenOdd function. No need to take any input.
+    </pre>
+    <pre>
+        const findEvenOdd = (N, Arr) => 
+        {
+            let odd=0,even=0,arrB=[0,0];
+            for(let i=0;i<N;i++){
+                if(Arr[i]%2===0){
+                even+=Arr[i]
+                }
+            else{
+                odd+=Arr[i]
+            }
+        }
+        arrB[0]=even;
+        arrB[1]=odd;
+        return arrB;
+        };
+    </pre>
+    <pre>
+        Find whether the number is present or not
+    Write a program which takes an array as input from the user and a number.
+    Check whether the number is present or not.
+    Note: You have to complete Find_Num. No need to take any input.
+    </pre>
+    <pre>
+        const Find_Num = (array,N,M) => 
+        {
+            for(let i=0;i<N;i++){
+            if(array[i]===M){
+            return "YES"
+            }
+    
+            }
+        return "NO"
+        };
+    </pre>
+    <pre>
+        Higher Age
+    You are given an array A containing the age of persons in your locality, and your task is to find and return an array containing 
+    the age of persons that are over 18 (18 included).
+
+    Note: Also, in the output array, the age should be in the same order as in the input array. 
+    You have to complete highAge function. No need to take any input.
+    </pre>
+    <pre>
+        const highAge = (N, Arr) => 
+        {
+            let higherAge=[],location=0;
+            for(let i=0;i<N;i++){
+                if(Arr[i]>=18){
+                higherAge[location++]=Arr[i]
+                }
+            }
+        return higherAge;
+        };
+    </pre>
+    <pre>
+        Increment the Array Elements
+    You are provided an array of integers and you have to increment all array elements by 1 and then print whole array.
+
+    You have to complete Inc_Arr. No need to take any input.
+    </pre>
+    <pre>
+        const Inc_Arr = (array,N) => 
+        {
+            let Arr =  array.map(N=> N+1).join(" ");
+            console.log(Arr);
+        };
+    </pre>
+    <pre>
+        Pass or Fail
+    You are given an array A containing the maths marks of students in your class, and your task is to determine 
+    if all the students pass in your class or not. A student is declared pass if his maths marks are greater than or equal to 32.
+    If all the students pass in your class, return "YES" (without quotes); otherwise, return "NO" (without quotes).
+        
+    Note: You have to complete isAllPass function. No need to take any input.
+    </pre>
+    <pre>
+        const isAllPass = (N, Arr) => 
+        {
+    
+            for(var i=0; i<Arr.length; i++){
+      
+            if(Arr[i] < 32){
+        
+            return "NO";    
+            }
+            }
+            return "YES";
+        };
+    </pre>
+</body>
+</html>
