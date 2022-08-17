@@ -217,7 +217,7 @@
         {
             vowel=0;
             S=S.toLowerCase();
-            for(let i=0; i<=S.length; i++){
+            for(let i=0; i < S.length; i++){
                 if(S[i]=="a" || S[i]=="e" || S[i]=="i" || S[i]=="o" || S[i]=="u"){
                 vowel++;
                 }
@@ -228,12 +228,13 @@
         {
             let consonants=0;
             S=S.toLowerCase();
-            for(let i=0; i<=S.length; i++){
-                if(S[i]!="a" || S[i]!="e" || S[i]!="i" || S[i]!="o" || S[i]!="u"){
+            for(let i=0; i < S.length; i++){
+                if(S[i]!="a" && S[i]!="e" && S[i]!="i" && S[i]!="o" && S[i]!="u"){
                     consonants++;
                 }
             }  
             return consonants;
+        };
         };
     </pre>
 </body>
